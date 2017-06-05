@@ -26,11 +26,12 @@
     </header>
 <!--seccion mapa-->
     <section class="container row">
-        <div class="scol-12" id="map">Mapa</div>
-        <button class="btn waves-effect waves-light" type="submit" name="action">Buscar
+        <div class="col s12" id="map">Mapa</div>
+        <button id="ubicacionActual" type="button" class="btn waves-effect waves-light">Obtener ubicación</button>
+        <button class="btn waves-effect waves-light right" type="submit" name="action">Buscar
             <i class="material-icons right">search</i>
         </button>
-        <input id="icon_prefix" type="text" class="validate input-field col offset-s3 s6" placeholder="Elige entre comida mexicana, oriental e italiana">
+        <input id="icon_prefix" type="text" class="validate input-field " placeholder="Elige entre comida mexicana, oriental e italiana">
     </section>
 <!--seccion restaurantes-->
     <section class="container">
@@ -164,7 +165,7 @@
 
 
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu82veRkaP5f6lQGYar5TTbSizSIBP6LM&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu82veRkaP5f6lQGYar5TTbSizSIBP6LM&callback=initMap   ">
     </script>
 
     <!--Import jQuery before materialize.js-->
